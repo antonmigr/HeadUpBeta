@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.headupbeta.TrackingActivity"
+    tools:ignore="MergeRootFrame" >
+	     <LinearLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="2px"
+        android:layout_height="2px"
+        android:layout_weight="1" 
+        android:orientation="vertical"/>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="160dp"
+        android:gravity="center"
+        android:text="Posture tracking feedback will be displayed in the center of the screen."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/recalibrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="165dp"
+        android:text="Recalibrate" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="77dp"
+        android:text="" />
+	
+    <TextView
+        android:id="@+id/middlefeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="center"
+        android:layout_marginBottom="35dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</FrameLayout>
+

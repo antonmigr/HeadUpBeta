@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HeadUp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Help</string>
+    <string name="title_activity_calibration">Calibration</string>
+    <string name="title_activity_tracking">HeadUp Beta 1.0</string>
+
+</resources>
